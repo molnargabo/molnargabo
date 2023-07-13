@@ -1,8 +1,8 @@
 const socialLinks = [
 ];
 const profileData = {
-  userName: "tambapro",
-  photoLink: "https://cdn.discordapp.com/attachments/1017925966691053660/1121490805379571913/Untitled_Artwork.png",
+  userName: "MolnarGabor",
+  photoLink: "https://cdn.fifa.gg/cache/media/player/448e853d-0106-4e93-a27d-92563d1d5092/Image-of-player-molnargabo-player-448e853d-0106-4e93-a27d-92563d1d5092.jpg",
 };
 
 const themeData = {

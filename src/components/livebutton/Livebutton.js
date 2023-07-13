@@ -12,7 +12,7 @@ class Livebutton extends Component {
     }
   
     componentDidMount() {
-      fetch('https://l7ntqg6gfj.execute-api.eu-north-1.amazonaws.com/prod/get?twitchname=tambapro',{
+      fetch('https://l7ntqg6gfj.execute-api.eu-north-1.amazonaws.com/prod/get?twitchname=molnargabor',{
         method:"GET",
         mode:"cors"
       })
@@ -43,10 +43,10 @@ class Livebutton extends Component {
       }
       let isLive = data.body.includes("Channel is live");
       if (isLive) {
-        return <a href="https://www.twitch.tv/tambapro"><img className="logo" src="livetwitchicon.png" style={styles.logo} alt="live_twitch_logo"></img></a>;
+        return <a href="https://www.twitch.tv/molnargabor"><img className="logo" src="livetwitchicon.png" style={styles.logo} alt="live_twitch_logo"></img></a>;
       }
       else{
-        return <a href="https://www.twitch.tv/tambapro"><img className="logo" src="offlinetwitchlogo.png" style={styles.logo} alt="live_twitch_logo"></img></a>;
+        return <a href="https://www.twitch.tv/molnargabor"><img className="logo" src="offlinetwitchlogo.png" style={styles.logo} alt="live_twitch_logo"></img></a>;
       }
     }
   }
